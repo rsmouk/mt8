@@ -5,3 +5,4 @@ const url = new URL(window.location.href);
 const paramValue = url.searchParams.get('param');
 
 console.log(paramValue); // This will output '33' if the URL parameter is present
+console.log(url); // This will output '33' if the URL parameter is present
